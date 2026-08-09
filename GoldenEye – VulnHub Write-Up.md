@@ -1,4 +1,3 @@
-<img width="1600" height="869" alt="WhatsApp Image 2026-08-09 at 11 33 06" src="https://github.com/user-attachments/assets/127d4135-a0a9-465e-b4ac-f55ebe9ec3a3" />
 ## 1. Enumeration
 
 ### Nmap Scan
@@ -526,6 +525,7 @@ I listed the root directory:
 ```bash
 ls -al
 ```
+<img width="1600" height="869" alt="WhatsApp Image 2026-08-09 at 11 33 06" src="https://github.com/user-attachments/assets/9248a07e-0809-47fd-a230-173033813028" />
 
 I found:
 
@@ -545,7 +545,6 @@ The flag pointed me to:
 /006-final/xvf7-flag/
 ```
 
-<img width="1600" height="869" alt="WhatsApp Image 2026-08-09 at 11 33 06" src="https://github.com/user-attachments/assets/9248a07e-0809-47fd-a230-173033813028" />
 
 
 I navigated to the directory and completed the GoldenEye box.

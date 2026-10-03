@@ -34,7 +34,7 @@ The target website was opened in a web browser for manual enumeration.
 
 The webpage contained a table with several rows. During inspection, it was noticed that the information in **Row 4** was unreadable.
 
-![[Pasted image 20260831144824.png]]
+![](attachments/Pasted%20image%2020260831144824.png)
 
 This suggested that the text might be encoded or hidden using an encoding technique.
 

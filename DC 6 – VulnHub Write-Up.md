@@ -243,7 +243,7 @@ listening on [any] 3333 ...
 
 I then opened the exploit file in the browser:
 
-![[Pasted image 20260810011106.png]]
+![](attachments/Pasted%20image%2020260810011106.png)
 
 ```text
 file:///home/kali/45274.html
@@ -599,7 +599,7 @@ cat: theflag.txt: No such file or directory
 ```
 
 I then used the absolute path The flag file contained:
-![[Pasted image 20260810013153.png]]
+![](attachments/Pasted%20image%2020260810013153.png)
 
 ```text
 root@dc-6:/home/jens# cat theflag.txt

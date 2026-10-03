@@ -104,7 +104,7 @@ The `robots.txt` file also contained several directories. One interesting direct
 /Setec/Astronomy
 ```
 
-![[Pasted image 20260906172649.png]]
+![](attachments/Pasted%20image%2020260906172649.png)
 
 ## 6. Investigating `/Setec/Astronomy`
 
@@ -193,7 +193,7 @@ NSA-Agent-Abbott"; AKA Darth Vader
 I searched for this clue online and found an IMDb page related to the character.
 
 I then used CeWL to create a custom wordlist based on words from the IMDb page.
-![[Pasted image 20260930212306.png]]
+![](attachments/Pasted%20image%2020260930212306.png)
 
 ```bash
 ┌──(kali㉿hashi)-[~/Downloads]
@@ -228,7 +228,7 @@ After navigating there, I found:
     
 - A PCAP file
     
-![[Pasted image 20260906181638.png]]
+![](attachments/Pasted%20image%2020260906181638.png)
 
 The flag was:
 
@@ -378,7 +378,7 @@ Finally, I executed it.
 
 LinPEAS revealed several interesting findings, including information related to the `wernerbrandes` environment.
 
-![[Pasted image 20260906183600.png]]
+![](attachments/Pasted%20image%2020260906183600.png)
 
 # Discovering a Writable Python Script
 
@@ -457,16 +457,16 @@ Congratulations!! Martin Bishop is a free man once again!  Go here to receive yo
 ```
 
 
-![[Pasted image 20261001091829.png]]
+![](attachments/Pasted%20image%2020261001091829.png)
 
 
-![[Pasted image 20261001091852.png]]
+![](attachments/Pasted%20image%2020261001091852.png)
 
 YAYYYY!!!!!!
 
-![[Pasted image 20261001092336.png]]
+![](attachments/Pasted%20image%2020261001092336.png)
 
-![[Pasted image 20261001092400.png]]
+![](attachments/Pasted%20image%2020261001092400.png)
 
 # Method 2:Alternative Privilege Escalation Method
 

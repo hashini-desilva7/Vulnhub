@@ -35,7 +35,7 @@ and in the robots.txt i gor so many sub directories and i found interesting for
 /Setec/Astronomy
 and when i navigate there i found a zip file,jpg file
 
-![[Pasted image 20260906172649.png]]
+![](attachments/Pasted%20image%2020260906172649.png)
 i downloaded the image file and the zip file tested the image file using exiftool and there wasnt anything
 and then i tried to unzip the file and it prompted for a password and to find the password i used
 
@@ -84,7 +84,7 @@ flag{c07908a705c22922e6d416e0e1107d99} - leroybrown
 and from the pcap i extracted a mp3 file and it contained
 Hi. My Name Is Werner Brandes. My Voice Is My Passport. Verify Me
 
-![[Pasted image 20260906181638.png]]
+![](attachments/Pasted%20image%2020260906181638.png)
 
 
 this hints about a user called werner brandes
@@ -125,7 +125,7 @@ and executed it
 `./linpeas.sh`
 
 and it displayed all the vulnerabilities and what i found there interesting is 
-![[Pasted image 20260906183600.png]]
+![](attachments/Pasted%20image%2020260906183600.png)
 
 
 from this list i found ==/home/wernerbrandes ==
@@ -179,7 +179,7 @@ Congratulations!! Martin Bishop is a free man once again!  Go here to receive yo
 /CongratulationsYouDidIt#
 ```
 
-![[Pasted image 20260906191154.png]]
+![](attachments/Pasted%20image%2020260906191154.png)
 
 OR THERE IS ANOTHER METHOD 
 rather addind a reverse shell i can edit the sanitizer.py

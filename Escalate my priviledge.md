@@ -40,7 +40,7 @@ PORT      STATE  SERVICE
 
 then i navigated to http ip and tried to click the image and although i was directed to a diff website i couldnt find anything useful there then i checked th source code and found a php bash shell
 
-![[Pasted image 20260906214018.png]]
+![](attachments/Pasted%20image%2020260906214018.png)
 
 then i tried to log into it 
 `http://192.168.56.118/phpbash.php```

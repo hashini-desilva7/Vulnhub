@@ -194,10 +194,10 @@ then compile the program using the cc compiler
 and executed the compiled exploit  `./ofs`
 `whoami
 
-![[WhatsApp Image 2026-08-09 at 11.33.06.jpeg]]
+![](attachments/WhatsApp%20Image%202026-08-09%20at%2011.33.06.jpeg)
  now we are the root!!!!
  `la -al`
  `cat .flag.txt`
   and the flag hint to direct to  `/006-final/xvf7-flag/`
   and yes we finished the box
-  ![[WhatsApp Image 2026-08-09 at 11.30.27.jpeg]]
+  ![](attachments/WhatsApp%20Image%202026-08-09%20at%2011.30.27.jpeg)

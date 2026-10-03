@@ -5,7 +5,7 @@ web god
 
 checking the uploaded file
 
-![[Pasted image 20260728115700.png]]
+![](attachments/Pasted%20image%2020260728115700.png)
 
 create a listener 
 netcat -lvnp 1234 (normally as the default port 1234 is used as )
@@ -42,7 +42,7 @@ we see that some operators like `&&` and `;` are blocked.
 ```
 
 ### High level
-![[Pasted image 20260731111749.png]]
+![](attachments/Pasted%20image%2020260731111749.png)
 
 However, when reviewing the code, we notice a subtle flaw: the filter incorrectly validates the pipe operator with a space (`|` ) instead of just the pipe symbol itself. This means an input like this still bypasses validation:
 
@@ -55,7 +55,7 @@ However, when reviewing the code, we notice a subtle flaw: the filter incorrectl
 
 ## low level
 
-![[Pasted image 20260731113014.png]]
+![](attachments/Pasted%20image%2020260731113014.png)
 
 The SQL injection worked, and it led us to the Welcome to the password protected area message .
 
@@ -114,7 +114,7 @@ vulnhub
 	Escalate priviledges
 TryHackMe - soc 1
 
-![[Pasted image 20260710135355.png]]
+![](attachments/Pasted%20image%2020260710135355.png)
 
 
 go to the root
@@ -207,7 +207,7 @@ REPORT
 1st screenshot -ifconfig
 should tell y i attack that specific version/vulnerability - national vulnerability database NIST 
 -CVE score - wht that critical
-![[Pasted image 20260710150033.png]]
+![](attachments/Pasted%20image%2020260710150033.png)
 
  
 

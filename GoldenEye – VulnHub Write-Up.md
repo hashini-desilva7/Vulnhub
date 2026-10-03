@@ -519,7 +519,7 @@ root
 
 # 16. Getting the Final Flag
 
-![[WhatsApp Image 2026-08-09 at 11.33.06.jpeg]]
+![](attachments/WhatsApp%20Image%202026-08-09%20at%2011.33.06.jpeg)
 
 I listed the root directory:
 
@@ -547,7 +547,7 @@ The flag pointed me to:
 
 I navigated to the directory and completed the GoldenEye box.
 
-![[WhatsApp Image 2026-08-09 at 11.30.27.jpeg]]
+![](attachments/WhatsApp%20Image%202026-08-09%20at%2011.30.27.jpeg)
 
 ---
 

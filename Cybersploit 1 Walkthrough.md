@@ -270,7 +270,7 @@ I displayed the contents:
 cat finalflag.txt
 ```
 
-![[Pasted image 20260818124139.png]]
+![](attachments/Pasted%20image%2020260818124139.png)
 
 This revealed the final flag:
 

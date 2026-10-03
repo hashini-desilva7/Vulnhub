@@ -203,7 +203,7 @@ The vulnerable WordPress plugin provided a path to execute commands on the targe
 I used the vulnerable functionality to obtain a shell on the machine.
 and executed the file in web and pressed the submit button and we got a shell
 
-![[Pasted image 20260810011106.png]]
+![](attachments/Pasted%20image%2020260810011106.png)
 
 ```
 file:///home/kali/45274.html
@@ -390,7 +390,7 @@ If you enjoyed this CTF, send me a tweet via @DCAU7.
 
 The flag confirmed that the DC-6 machine had been successfully completed. Independent walkthroughs also confirm the final flag is located at `/root/theflag.txt`.
 
-![[Pasted image 20260810013153.png]]
+![](attachments/Pasted%20image%2020260810013153.png)
 ---
 
 # 16. Attack Path

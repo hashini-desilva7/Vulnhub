@@ -55,15 +55,15 @@ ls /home
 
 
 
-![[Pasted image 20260725131950.png]]
+![](attachments/Pasted%20image%2020260725131950.png)
 
 changed the commad to `ls+/home` and found some usernames ==jim,sam==
 
-![[Pasted image 20260725132035.png]]
+![](attachments/Pasted%20image%2020260725132035.png)
 
 Exploring the home directory for user Jimand found a ==backups folder== `ls+/home/jim`
 
-![[Pasted image 20260725132134.png]]
+![](attachments/Pasted%20image%2020260725132134.png)
 
 then explored the backup folder using `ls+/home/jim/backups` We have found a ==old-passwords.bak== file is a backup password file
 

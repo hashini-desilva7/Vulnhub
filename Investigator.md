@@ -1,5 +1,4 @@
 
-
 searchploit is used only if we know the version othervice use some other approach
 as soon  as i see a version go and search insearchsploit
 if the port is not the usual we have to state it 

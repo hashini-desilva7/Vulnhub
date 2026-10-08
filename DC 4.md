@@ -16,7 +16,10 @@ target http://dc-4/index.php
 `hydra -l admin -P /usr/share/wordlists/rockyou.txt dc-4 http-post-form "/index.php:username=^USER^&password=^PASS^:S=logout" -V`
 
 After many failed attempts on guessing or sql injection, I used Burp to Brute-Force the login page as it seems nothing has been working I captured the Request and Sent it to Intruder
-brute forced the password for admin and fount it was ==happy==
+brute forced the password for admin and found it was ==happy==
+
+![[Pasted image 20261004151159.png]]
+
 then i logged into the website
 after roaming around these i found a POST request and edited that through burp
 We can see the Raw request with Burp
